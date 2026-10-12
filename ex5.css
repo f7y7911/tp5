@@ -1,0 +1,58 @@
+body {
+    background-color: gray;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.carte {
+    width: 500px;
+    padding: 30px;
+    margin: auto;
+    border-radius: 10px;
+    background-color: darkslategray;
+    position: relative;
+    animation: aa 3s infinite;
+}
+
+.badge {
+    position: absolute;
+    top: 10px;
+    float: left;
+    font-weight: bolder;
+
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 0 5px gray;
+    display: flex;
+    
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+@keyframes aa{
+    0% {
+        box-shadow: 0px 20px 20px red;
+    }
+    25% {
+        box-shadow: 0px 20px 20px blue;
+    }
+    50% {
+        box-shadow: 0px 20px 20px rebeccapurple;
+    }
+    75% {
+        box-shadow: 0px 20px 20px green;
+    }
+    100% {
+        box-shadow: 0px 20px 20px palevioletred;
+    }
+    
+}
